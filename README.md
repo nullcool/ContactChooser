@@ -19,7 +19,6 @@ The method which will return a JSON. Example:
 ```json
 {
     displayName: "John Doe",
-    email: "john.doe@mail.com",
     phoneNumber: "+(55) 555-55-55"
 }
 ```
@@ -61,3 +60,9 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Modification
+
+Some methods have changed, because this version will return the phoneNumber, the older and origin one doesn't work for me on ios7+
+
+This version works in iOS 7.x and iOS 8.x
