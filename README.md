@@ -1,6 +1,18 @@
-# ContactChooser plugin for Cordova 3.x
+## Modification
 
-This plugin brings up a native iOS or Android contact-picker overlay, accessing the addressbook and returning the selected contact's name, email and phone number.
+The original version is this one:
+
+https://github.com/monday-consulting/ContactChooser
+
+
+Some methods have changed, because this version will return the phoneNumber, the older and origin one doesn't work for me on ios7+
+
+This version works in iOS 7.x and iOS 8.x
+
+
+# ContactChooser plugin for Cordova 3.x Modified
+
+This plugin brings up a native iOS or Android contact-picker overlay, accessing the addressbook and returning the selected contact's name and phone number.
 
 ## Usage
 
@@ -35,7 +47,7 @@ The ContactChooser plugin provides support for Cordova's command-line tooling.
 Simply navigate to your project's root directory and execute the following command:
 
 ```
-cordova plugin add https://github.com/monday-consulting/ContactChooser.git
+cordova plugin add https://github.com/nullcool/ContactChooser.git
 ```
 
 ## MIT Licence
@@ -60,9 +72,3 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-## Modification
-
-Some methods have changed, because this version will return the phoneNumber, the older and origin one doesn't work for me on ios7+
-
-This version works in iOS 7.x and iOS 8.x
